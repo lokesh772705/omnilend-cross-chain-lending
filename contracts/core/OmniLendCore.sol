@@ -1,9 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.19;
 
-contract OmniLendCore {
-    address public owner;
-    bool private locked;
+import "@openzeppelin/contracts/access/Ownable.sol";
+import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+
+contract OmniLendCore is Ownable, ReentrancyGuard {
     
     struct UserPosition {
         mapping(uint256 => uint256) collateralAmounts;
@@ -23,22 +24,6 @@ contract OmniLendCore {
     mapping(uint256 => LendingPool) public lendingPools;
     
     event CrossChainDeposit(address indexed user, uint256 chainId, address token, uint256 amount);
-    
-    modifier onlyOwner() {
-        require(msg.sender == owner, "Not owner");
-        _;
-    }
-    
-    modifier nonReentrant() {
-        require(!locked, "Reentrant call");
-        locked = true;
-        _;
-        locked = false;
-    }
-    
-    constructor() {
-        owner = msg.sender;
-    }
     
     function depositCollateral(
         uint256 chainId,
@@ -84,10 +69,5 @@ contract OmniLendCore {
     
     function getCollateralAmount(address user, uint256 chainId) external view returns (uint256) {
         return userPositions[user].collateralAmounts[chainId];
-    }
-    
-    function transferOwnership(address newOwner) external onlyOwner {
-        require(newOwner != address(0), "Invalid address");
-        owner = newOwner;
     }
 }
