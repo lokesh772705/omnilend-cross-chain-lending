@@ -1,13 +1,19 @@
-# Sample Hardhat Project
+## 🎯 Project Overview
+OmniLend is an innovative decentralized finance (DeFi) platform offering AI-powered cross-chain lending services. Built for the DoraHacks Cross-Chain Track hackathon.
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+## ✨ Key Features
+- 🔗 **Cross-Chain Lending**: Multi-blockchain support
+- 🧠 **AI Risk Assessment**: Smart lending evaluation
+- 💰 **MetaMask Integration**: Secure wallet connectivity
+- 📜 **Smart Contracts**: Audited Solidity contracts
+- 🎨 **Beautiful UI**: Next.js + Tailwind CSS
 
-Try running some of the following tasks:
+## 🛠️ Technology Stack
+- **Frontend**: Next.js 15, React 18, TypeScript
+- **Styling**: Tailwind CSS
+- **Blockchain**: Ethereum, Solidity
+- **Wallet**: MetaMask integration
+- **Deployment**: Vercel + GitHub
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+## 🚀 Live Demo
+**URL**: https://omnilend-cross-chain-lending.vercel.app/
