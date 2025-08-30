@@ -44,3 +44,13 @@ Deployment: Vercel, GitHub CI/CD
 URL: https://omnilend-cross-chain-lending.vercel.app/
 
 (Connect MetaMask and switch to a supported network to start lending or borrowing)
+
+
+
+## Innovation
+- First unified cross-chain lending experience
+- ZetaChain omnichain architecture ready
+- Professional-grade DeFi platform
+- Seamless multi-blockchain interoperability
+
+Built with ❤️ for ZetaChain Cross-Chain Lending Track
