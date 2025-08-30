@@ -26,19 +26,19 @@ OmniLend enables seamless cross-chain lending through:
 
 ### Designed for the DoraHacks Cross-Chain Track hackathon, OmniLend showcases:
 
-🌉 Blockchain interoperability
-🛡️ User and lender security
-🪙 Yield and borrowing opportunities
-📊 Transparent smart contract logic
+1. 🌉 Blockchain interoperability
+2. 🛡️ User and lender security
+3. 🪙 Yield and borrowing opportunities
+4. 📊 Transparent smart contract logic
 
 
 ### 💡 What Can You Do With OmniLend?
 
-Lend your digital assets (ETH and more) securely and earn yield.
-Borrow across supported blockchains, with eligibility and rates determined by cutting-edge AI analytics.
-Connect easily using MetaMask for permissionless, secure transactions.
-Track loan performance and cross-chain stats with a modern dashboard.
-Enjoy a beautiful, fast UI designed for desktop and mobile devices.
+1. Lend your digital assets (ETH and more) securely and earn yield.
+2. Borrow across supported blockchains, with eligibility and rates determined by cutting-edge AI analytics.
+3. Connect easily using MetaMask for permissionless, secure transactions.
+4. Track loan performance and cross-chain stats with a modern dashboard.
+5. Enjoy a beautiful, fast UI designed for desktop and mobile devices.
 
 ### ✨ Key Features
 
@@ -51,27 +51,25 @@ Enjoy a beautiful, fast UI designed for desktop and mobile devices.
 
 ### 🛠️ Technology Stack
 
-**Frontend**: Next.js 15, React 18, TypeScript
-**Styling**: Tailwind CSS
-**Blockchain**: Ethereum & Solidity
-**Wallet**: MetaMask integration, Ethers.js
+1. **Frontend**: Next.js 15, React 18, TypeScript
+2. **Styling**: Tailwind CSS
+3. **Blockchain**: Ethereum & Solidity
+4. **Wallet**: MetaMask integration, Ethers.js
+
+
+## Innovation
+1. - First unified cross-chain lending experience
+2. - ZetaChain omnichain architecture ready
+3. - Professional-grade DeFi platform
+4. - Seamless multi-blockchain interoperability
 
 
 ### Deployment: Vercel, GitHub CI/CD
 
 🌐 Live Demo
 🔗 Try OmniLend Now
-URL: https://omnilend-cross-chain-lending.vercel.app/
-
+### URL: https://omnilend-cross-chain-lending.vercel.app/
 (Connect MetaMask and switch to a supported network to start lending or borrowing)
-
-
-
-## Innovation
-- First unified cross-chain lending experience
-- ZetaChain omnichain architecture ready
-- Professional-grade DeFi platform
-- Seamless multi-blockchain interoperability
 
 Built with great eenthusiasm for ZetaChain Cross-Chain Lending Track
 
