@@ -58,10 +58,10 @@ OmniLend enables seamless cross-chain lending through:
 
 
 ## Innovation
-1. - First unified cross-chain lending experience
-2. - ZetaChain omnichain architecture ready
-3. - Professional-grade DeFi platform
-4. - Seamless multi-blockchain interoperability
+1. First unified cross-chain lending experience
+2. ZetaChain omnichain architecture ready
+3. Professional-grade DeFi platform
+4. Seamless multi-blockchain interoperability
 
 
 ### Deployment: Vercel, GitHub CI/CD
