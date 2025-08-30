@@ -4,6 +4,25 @@
 
 OmniLend is a next-generation decentralized finance (DeFi) platform for seamless, multi-chain asset lending and borrowing. The platform leverages AI-driven risk models and audited smart contracts to offer users safe, transparent, and optimized lending experiences.
 
+### Problem Solved
+
+Current DeFi lending is fragmented across separate blockchains, limiting capital efficiency and user experience. Users must manually bridge assets between chains, creating friction and additional costs.
+
+### Our Solution
+OmniLend enables seamless cross-chain lending through:
+- **Unified Liquidity Pools** - Aggregate funds across multiple blockchains
+- **Instant Cross-Chain Execution** - Deposit on Chain A, borrow on Chain B
+- **Automated Risk Management** - Real-time health factor monitoring and liquidation
+- **ZetaChain Integration** - Built for omnichain future
+
+## 🎮 How to Use
+
+1. **Connect Wallet** - Link your MetaMask to the application
+2. **Add Network** - Configure Hardhat Local network (Chain ID: 1337)
+3. **Import Test Account** - Use provided test account with 10,000 ETH
+4. **Deposit Collateral** - Enter ETH amount and confirm transaction
+5. **Monitor Position** - View real-time collatera
+
 
 Designed for the DoraHacks Cross-Chain Track hackathon, OmniLend showcases:
 
@@ -54,3 +73,4 @@ URL: https://omnilend-cross-chain-lending.vercel.app/
 - Seamless multi-blockchain interoperability
 
 Built with ❤️ for ZetaChain Cross-Chain Lending Track
+
